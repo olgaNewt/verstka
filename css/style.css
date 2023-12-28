@@ -151,7 +151,14 @@ textarea{
 }
 
 
-
+/*Footer*/
+.footer{
+    height: 50px;
+    margin-top: 13em;
+    color: white;
+    background-color: rgb(38, 100, 192);
+    text-align: center;
+}
 
 
 
@@ -166,7 +173,7 @@ textarea{
 
 @media screen and (min-width: 1541px)and (max-width: 1700px) {
     .zn2{
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .adress{
         margin-left: 17%;
@@ -183,7 +190,7 @@ textarea{
         margin-left: 14%;
     }
     .tel{
-        margin-left: 24%;
+        margin-left: 23%;
     }
   
 }
@@ -195,7 +202,7 @@ textarea{
         margin-left: 9%;
     }
     .tel{
-        margin-left: 18%;
+        margin-left: 17%;
     }
     
 }
@@ -207,13 +214,13 @@ textarea{
         margin-left: 6%;
     }
     .tel{
-        margin-left: 13%;
+        margin-left: 12%;
     }
 }
 
 @media screen and (min-width: 851px) and (max-width: 1045px){
     .zn2{
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .adress{
         display: none;
@@ -221,11 +228,40 @@ textarea{
     .tel{
         margin-left: 40%;
     }
+    .head2{
+        width: 80%;
+    }
+    .sub{
+        display: inline;
+        text-align: center;
+        margin-left: 0em;
+    }
+    .bb{
+        display: none;
+    }
+    .subBtn{
+        font-size: 1.3vw;
+        width: 80%;
+        margin-top: 2em;
+    }
+    .woman img{
+        width: 550px;
+        position: absolute;
+        top: 235px;
+        left: 33%;
+    }
+    .i1, .i2{
+        width: 100%;
+        margin-top:1em
+    }
+    .i2{
+        margin-left: 0%;
+    }
 }
 
 @media screen and (min-width: 741px) and (max-width: 850px){
     .zn2{
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .adress{
         display: none;
@@ -233,17 +269,81 @@ textarea{
     .tel{
         margin-left: 31%;
     }
+    .head2{
+        width: 80%;
+    }
+    .sub{
+        display: inline;
+        text-align: center;
+        margin-left: 0em;
+    }
+    .bb{
+        display: none;
+    }
+    .subBtn{
+        font-size: 1.3vw;
+        width: 80%;
+        margin-top: 2em;
+    }
+    .woman img{
+        width: 550px;
+        position: absolute;
+        top: 245px;
+        left: 33%;
+    }
+    .i1, .i2{
+        width: 100%;
+        margin-top:1.5em
+    }
+    .i2{
+        margin-left: 0%;
+    }
+    .forma{
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 631px) and (max-width: 740px){
     .zn2{
-        margin-left: 2%;
+        margin-left: 1%;
     }
     .adress{
         display: none;
     }
     .tel{
         margin-left: 19%;
+    }
+    .head2{
+        width: 80%;
+    }
+    .sub{
+        display: inline;
+        text-align: center;
+        margin-left: 0em;
+    }
+    .bb{
+        display: none;
+    }
+    .subBtn{
+        font-size: 1.7vw;
+        width: 80%;
+        margin-top: 2em;
+    }
+    .woman img{
+        width: 550px;
+        position: absolute;
+        top: 245px;
+        left: 33%;
+    }
+    .i1, .i2{
+        width: 100%;
+        margin-top:1em
+    }
+    .i2{
+        margin-left: 0%;
+    }
+    .forma{
+        width: 40%;
     }
 }
 
@@ -262,5 +362,39 @@ textarea{
     }
     .tel{
         display: none;
+    }
+    .head2{
+        width: 80%;
+    }
+    .sub{
+        display: inline;
+        text-align: center;
+        margin-left: 0em;
+    }
+    .bb{
+        display: none;
+    }
+    .subBtn{
+        font-size: 2.2vw;
+        width: 80%;
+        margin-top: 2em;
+    }
+    .woman img{
+      display: none;
+    }
+    .i1, .i2{
+        width: 100%;
+        margin-top:1em
+    }
+    .i2{
+        margin-left: 0%;
+    }
+    .forma{
+        width: 98%;
+        margin: 8% 1%;  
+    }
+    .head2{
+        width: 98%;
+        margin: 3% 1%;
     }
 }
