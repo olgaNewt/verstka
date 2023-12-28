@@ -74,6 +74,73 @@ h2{
 }
 
 
+/*forma*/
+.forma{
+    width: 30%;
+    margin: 3% 10%;  
+}
+form{
+    background-color: rgb(38, 100, 192);
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+   
+}
+form p{
+    text-align: center;
+    letter-spacing: 1px;
+}
+p span{
+    font-weight: bolder;
+}
+.pm{
+    font-size: 13px;
+    margin: 5px auto 15px;
+}
+.i1, .i2{
+    width: 47%;
+    height: 2em;
+    border-radius: 8px;
+    padding: 15px;
+}
+.i2{
+    margin-left: 3%;
+}
+textarea{
+    width: 99%;
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.sub{
+    display: flex;
+    margin-left: 2em;
+}
+.obrLink{
+    margin-left: 0.5em;
+}
+.obrLink a{
+    color: white;
+}
+.subBtn{
+    font-size: 0.7vw;
+    width: 40%;
+    height: 3em;
+    margin-left: 8%;
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 20px;
+    padding:  5px 8px;
+}
+.subBtn:hover{
+    color: orange;
+    background-color: white;
+    transition-duration: 300ms;
+}
+
 
 
 
